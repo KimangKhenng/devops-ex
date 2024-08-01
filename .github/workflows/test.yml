@@ -28,7 +28,7 @@ jobs:
           . ~/.nvm/nvm.sh
           set -e # Exit immediately if a command exits with a non-zero status
           echo "Pulling latest changes from git repository"
-          cd devops-ex
+          cd pharean/devops-ex
           git pull 
           echo "Installing dependencies"
           npm install
